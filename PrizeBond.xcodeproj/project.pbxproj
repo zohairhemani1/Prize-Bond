@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199A9B9D1A472A420091FC3D /* Luck.m in Sources */ = {isa = PBXBuildFile; fileRef = 199A9B9C1A472A420091FC3D /* Luck.m */; };
+		19B179021A2C9E9D00117A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179011A2C9E9D00117A79 /* Foundation.framework */; };
+		19B179041A2C9E9D00117A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179031A2C9E9D00117A79 /* CoreGraphics.framework */; };
+		19B179061A2C9E9D00117A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179051A2C9E9D00117A79 /* UIKit.framework */; };
+		19B1790C1A2C9E9D00117A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B1790A1A2C9E9D00117A79 /* InfoPlist.strings */; };
+		19B1790E1A2C9E9D00117A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1790D1A2C9E9D00117A79 /* main.m */; };
+		19B179121A2C9E9D00117A79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B179111A2C9E9D00117A79 /* AppDelegate.m */; };
+		19B179151A2C9E9D00117A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B179131A2C9E9D00117A79 /* Main.storyboard */; };
+		19B179181A2C9E9D00117A79 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B179171A2C9E9D00117A79 /* FirstViewController.m */; };
+		19B1791B1A2C9E9D00117A79 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1791A1A2C9E9D00117A79 /* SecondViewController.m */; };
+		19B1791D1A2C9E9D00117A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B1791C1A2C9E9D00117A79 /* Images.xcassets */; };
+		19B179241A2C9E9D00117A79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179231A2C9E9D00117A79 /* XCTest.framework */; };
+		19B179251A2C9E9D00117A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179011A2C9E9D00117A79 /* Foundation.framework */; };
+		19B179261A2C9E9D00117A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179051A2C9E9D00117A79 /* UIKit.framework */; };
+		19B1792E1A2C9E9D00117A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B1792C1A2C9E9D00117A79 /* InfoPlist.strings */; };
+		19B179301A2C9E9D00117A79 /* PrizeBondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1792F1A2C9E9D00117A79 /* PrizeBondTests.m */; };
+		19B1793B1A2CA83100117A79 /* MyPrizeBonds.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B1793A1A2CA83100117A79 /* MyPrizeBonds.m */; };
+		19B179461A2CAC4C00117A79 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179451A2CAC4C00117A79 /* libstdc++.6.0.9.dylib */; };
+		19B179481A2CB69400117A79 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179471A2CB69400117A79 /* CoreImage.framework */; };
+		19B1794A1A2CB6B100117A79 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B179491A2CB6B100117A79 /* TesseractOCR.framework */; };
+		19B179511A2CBE5600117A79 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 19B179501A2CBE5600117A79 /* tessdata */; };
+		19B298481A47B36C00187240 /* ManualEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B298471A47B36C00187240 /* ManualEntry.m */; };
+		19D99F381A373C1500E31ADC /* PrizeBondInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D99F371A373C1500E31ADC /* PrizeBondInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B179271A2C9E9D00117A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B178F61A2C9E9D00117A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B178FD1A2C9E9D00117A79;
+			remoteInfo = PrizeBond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199A9B9B1A472A420091FC3D /* Luck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Luck.h; path = ../Luck.h; sourceTree = "<group>"; };
+		199A9B9C1A472A420091FC3D /* Luck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Luck.m; path = ../Luck.m; sourceTree = "<group>"; };
+		19B178FE1A2C9E9D00117A79 /* PrizeBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrizeBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B179011A2C9E9D00117A79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B179031A2C9E9D00117A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B179051A2C9E9D00117A79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B179091A2C9E9D00117A79 /* PrizeBond-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrizeBond-Info.plist"; sourceTree = "<group>"; };
+		19B1790B1A2C9E9D00117A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B1790D1A2C9E9D00117A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B1790F1A2C9E9D00117A79 /* PrizeBond-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrizeBond-Prefix.pch"; sourceTree = "<group>"; };
+		19B179101A2C9E9D00117A79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19B179111A2C9E9D00117A79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19B179141A2C9E9D00117A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B179161A2C9E9D00117A79 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		19B179171A2C9E9D00117A79 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		19B179191A2C9E9D00117A79 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		19B1791A1A2C9E9D00117A79 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		19B1791C1A2C9E9D00117A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19B179221A2C9E9D00117A79 /* PrizeBondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrizeBondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B179231A2C9E9D00117A79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19B1792B1A2C9E9D00117A79 /* PrizeBondTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrizeBondTests-Info.plist"; sourceTree = "<group>"; };
+		19B1792D1A2C9E9D00117A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B1792F1A2C9E9D00117A79 /* PrizeBondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrizeBondTests.m; sourceTree = "<group>"; };
+		19B179391A2CA83100117A79 /* MyPrizeBonds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPrizeBonds.h; sourceTree = "<group>"; };
+		19B1793A1A2CA83100117A79 /* MyPrizeBonds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPrizeBonds.m; sourceTree = "<group>"; };
+		19B179451A2CAC4C00117A79 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		19B179471A2CB69400117A79 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		19B179491A2CB6B100117A79 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		19B179501A2CBE5600117A79 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		19B298461A47B36C00187240 /* ManualEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManualEntry.h; path = ../ManualEntry.h; sourceTree = "<group>"; };
+		19B298471A47B36C00187240 /* ManualEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManualEntry.m; path = ../ManualEntry.m; sourceTree = "<group>"; };
+		19D99F361A373C1500E31ADC /* PrizeBondInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeBondInfo.h; sourceTree = "<group>"; };
+		19D99F371A373C1500E31ADC /* PrizeBondInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeBondInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B178FB1A2C9E9D00117A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B179481A2CB69400117A79 /* CoreImage.framework in Frameworks */,
+				19B179461A2CAC4C00117A79 /* libstdc++.6.0.9.dylib in Frameworks */,
+				19B179041A2C9E9D00117A79 /* CoreGraphics.framework in Frameworks */,
+				19B179061A2C9E9D00117A79 /* UIKit.framework in Frameworks */,
+				19B1794A1A2CB6B100117A79 /* TesseractOCR.framework in Frameworks */,
+				19B179021A2C9E9D00117A79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B1791F1A2C9E9D00117A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B179241A2C9E9D00117A79 /* XCTest.framework in Frameworks */,
+				19B179261A2C9E9D00117A79 /* UIKit.framework in Frameworks */,
+				19B179251A2C9E9D00117A79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B178F51A2C9E9D00117A79 = {
+			isa = PBXGroup;
+			children = (
+				19B179501A2CBE5600117A79 /* tessdata */,
+				19B179071A2C9E9D00117A79 /* PrizeBond */,
+				19B179291A2C9E9D00117A79 /* PrizeBondTests */,
+				19B179001A2C9E9D00117A79 /* Frameworks */,
+				19B178FF1A2C9E9D00117A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B178FF1A2C9E9D00117A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B178FE1A2C9E9D00117A79 /* PrizeBond.app */,
+				19B179221A2C9E9D00117A79 /* PrizeBondTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B179001A2C9E9D00117A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B179491A2CB6B100117A79 /* TesseractOCR.framework */,
+				19B179471A2CB69400117A79 /* CoreImage.framework */,
+				19B179451A2CAC4C00117A79 /* libstdc++.6.0.9.dylib */,
+				19B179011A2C9E9D00117A79 /* Foundation.framework */,
+				19B179031A2C9E9D00117A79 /* CoreGraphics.framework */,
+				19B179051A2C9E9D00117A79 /* UIKit.framework */,
+				19B179231A2C9E9D00117A79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B179071A2C9E9D00117A79 /* PrizeBond */ = {
+			isa = PBXGroup;
+			children = (
+				19B179101A2C9E9D00117A79 /* AppDelegate.h */,
+				19B179111A2C9E9D00117A79 /* AppDelegate.m */,
+				19B179131A2C9E9D00117A79 /* Main.storyboard */,
+				19B179391A2CA83100117A79 /* MyPrizeBonds.h */,
+				19B1793A1A2CA83100117A79 /* MyPrizeBonds.m */,
+				19B179161A2C9E9D00117A79 /* FirstViewController.h */,
+				19B179171A2C9E9D00117A79 /* FirstViewController.m */,
+				19B179191A2C9E9D00117A79 /* SecondViewController.h */,
+				19B1791A1A2C9E9D00117A79 /* SecondViewController.m */,
+				19D99F361A373C1500E31ADC /* PrizeBondInfo.h */,
+				19D99F371A373C1500E31ADC /* PrizeBondInfo.m */,
+				199A9B9B1A472A420091FC3D /* Luck.h */,
+				199A9B9C1A472A420091FC3D /* Luck.m */,
+				19B298461A47B36C00187240 /* ManualEntry.h */,
+				19B298471A47B36C00187240 /* ManualEntry.m */,
+				19B1791C1A2C9E9D00117A79 /* Images.xcassets */,
+				19B179081A2C9E9D00117A79 /* Supporting Files */,
+			);
+			path = PrizeBond;
+			sourceTree = "<group>";
+		};
+		19B179081A2C9E9D00117A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B179091A2C9E9D00117A79 /* PrizeBond-Info.plist */,
+				19B1790A1A2C9E9D00117A79 /* InfoPlist.strings */,
+				19B1790D1A2C9E9D00117A79 /* main.m */,
+				19B1790F1A2C9E9D00117A79 /* PrizeBond-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B179291A2C9E9D00117A79 /* PrizeBondTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B1792F1A2C9E9D00117A79 /* PrizeBondTests.m */,
+				19B1792A1A2C9E9D00117A79 /* Supporting Files */,
+			);
+			path = PrizeBondTests;
+			sourceTree = "<group>";
+		};
+		19B1792A1A2C9E9D00117A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B1792B1A2C9E9D00117A79 /* PrizeBondTests-Info.plist */,
+				19B1792C1A2C9E9D00117A79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B178FD1A2C9E9D00117A79 /* PrizeBond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B179331A2C9E9D00117A79 /* Build configuration list for PBXNativeTarget "PrizeBond" */;
+			buildPhases = (
+				19B178FA1A2C9E9D00117A79 /* Sources */,
+				19B178FB1A2C9E9D00117A79 /* Frameworks */,
+				19B178FC1A2C9E9D00117A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrizeBond;
+			productName = PrizeBond;
+			productReference = 19B178FE1A2C9E9D00117A79 /* PrizeBond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B179211A2C9E9D00117A79 /* PrizeBondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B179361A2C9E9D00117A79 /* Build configuration list for PBXNativeTarget "PrizeBondTests" */;
+			buildPhases = (
+				19B1791E1A2C9E9D00117A79 /* Sources */,
+				19B1791F1A2C9E9D00117A79 /* Frameworks */,
+				19B179201A2C9E9D00117A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B179281A2C9E9D00117A79 /* PBXTargetDependency */,
+			);
+			name = PrizeBondTests;
+			productName = PrizeBondTests;
+			productReference = 19B179221A2C9E9D00117A79 /* PrizeBondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B178F61A2C9E9D00117A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Avialdo;
+				TargetAttributes = {
+					19B179211A2C9E9D00117A79 = {
+						TestTargetID = 19B178FD1A2C9E9D00117A79;
+					};
+				};
+			};
+			buildConfigurationList = 19B178F91A2C9E9D00117A79 /* Build configuration list for PBXProject "PrizeBond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B178F51A2C9E9D00117A79;
+			productRefGroup = 19B178FF1A2C9E9D00117A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B178FD1A2C9E9D00117A79 /* PrizeBond */,
+				19B179211A2C9E9D00117A79 /* PrizeBondTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B178FC1A2C9E9D00117A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B1791D1A2C9E9D00117A79 /* Images.xcassets in Resources */,
+				19B179511A2CBE5600117A79 /* tessdata in Resources */,
+				19B1790C1A2C9E9D00117A79 /* InfoPlist.strings in Resources */,
+				19B179151A2C9E9D00117A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B179201A2C9E9D00117A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B1792E1A2C9E9D00117A79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B178FA1A2C9E9D00117A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B298481A47B36C00187240 /* ManualEntry.m in Sources */,
+				19B1791B1A2C9E9D00117A79 /* SecondViewController.m in Sources */,
+				199A9B9D1A472A420091FC3D /* Luck.m in Sources */,
+				19B179121A2C9E9D00117A79 /* AppDelegate.m in Sources */,
+				19B179181A2C9E9D00117A79 /* FirstViewController.m in Sources */,
+				19D99F381A373C1500E31ADC /* PrizeBondInfo.m in Sources */,
+				19B1790E1A2C9E9D00117A79 /* main.m in Sources */,
+				19B1793B1A2CA83100117A79 /* MyPrizeBonds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B1791E1A2C9E9D00117A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B179301A2C9E9D00117A79 /* PrizeBondTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B179281A2C9E9D00117A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B178FD1A2C9E9D00117A79 /* PrizeBond */;
+			targetProxy = 19B179271A2C9E9D00117A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B1790A1A2C9E9D00117A79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B1790B1A2C9E9D00117A79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B179131A2C9E9D00117A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B179141A2C9E9D00117A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B1792C1A2C9E9D00117A79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B1792D1A2C9E9D00117A79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B179311A2C9E9D00117A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B179321A2C9E9D00117A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B179341A2C9E9D00117A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrizeBond/PrizeBond-Prefix.pch";
+				INFOPLIST_FILE = "PrizeBond/PrizeBond-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B179351A2C9E9D00117A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrizeBond/PrizeBond-Prefix.pch";
+				INFOPLIST_FILE = "PrizeBond/PrizeBond-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19B179371A2C9E9D00117A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrizeBond.app/PrizeBond";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrizeBond/PrizeBond-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PrizeBondTests/PrizeBondTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19B179381A2C9E9D00117A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrizeBond.app/PrizeBond";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrizeBond/PrizeBond-Prefix.pch";
+				INFOPLIST_FILE = "PrizeBondTests/PrizeBondTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B178F91A2C9E9D00117A79 /* Build configuration list for PBXProject "PrizeBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B179311A2C9E9D00117A79 /* Debug */,
+				19B179321A2C9E9D00117A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B179331A2C9E9D00117A79 /* Build configuration list for PBXNativeTarget "PrizeBond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B179341A2C9E9D00117A79 /* Debug */,
+				19B179351A2C9E9D00117A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B179361A2C9E9D00117A79 /* Build configuration list for PBXNativeTarget "PrizeBondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B179371A2C9E9D00117A79 /* Debug */,
+				19B179381A2C9E9D00117A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B178F61A2C9E9D00117A79 /* Project object */;
+}
