@@ -9,6 +9,10 @@
 #import "Luck.h"
 
 @interface Luck ()
+{
+    int screenWidth;
+    int screenHeight;
+}
 
 @end
 
@@ -29,7 +33,11 @@
     
     self.myTextField.delegate = self;
     self.myDrawsTextField.delegate = self;
-
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    screenWidth = screenRect.size.width;
+    screenHeight = screenRect.size.height;
+    
+    [self.completeView setFrame:CGRectMake(0, 0, screenWidth, screenHeight-200)];
 }
 
 - (void)didReceiveMemoryWarning

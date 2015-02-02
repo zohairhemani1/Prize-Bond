@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>977B8F25-DBE3-4DE8-A576-E94CA9D23333</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PrizeBond</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F2CCBAA668D0AF96BF777FAF695F53ED9A972CE</key>
+		<string>https://github.com/zohairhemani1/Prize-Bond.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PrizeBond.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F2CCBAA668D0AF96BF777FAF695F53ED9A972CE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zohairhemani1/Prize-Bond.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F2CCBAA668D0AF96BF777FAF695F53ED9A972CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F2CCBAA668D0AF96BF777FAF695F53ED9A972CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Prize-Bond</string>
+		</dict>
+	</array>
+</dict>
+</plist>

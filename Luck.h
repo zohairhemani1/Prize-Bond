@@ -20,6 +20,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *text_draw_city;
 @property (weak, nonatomic) IBOutlet UILabel *text_draw_date;
 @property (weak, nonatomic) IBOutlet UILabel *entries;
-
+@property (weak, nonatomic) IBOutlet UIView *completeView;
 
 @end

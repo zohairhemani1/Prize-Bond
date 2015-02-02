@@ -8,8 +8,11 @@
 
 #import "FirstViewController.h"
 
-@interface FirstViewController (){
+@interface FirstViewController ()
+{
     UIPickerView *myPickerView;
+    int screenWidth;
+    int screenHeight;
 }
 @end
 
@@ -18,9 +21,46 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    screenWidth = screenRect.size.width;
+    screenHeight = screenRect.size.height;
+    [self setButtonSizes];
     
-    }
+}
+
+-(void)setButtonSizes
+{
+    int divider = 6;
+    int y = 50;
+    int yOffset = (screenHeight/divider)/4;
+    
+    [self.hundredButton setFrame:CGRectMake(0,y,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:30 yPostion:y+yOffset];
+    [self.twoHundredButton setFrame:CGRectMake(160,y,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:190 yPostion:y+yOffset];
+    [self.sevenFiftyButton setFrame:CGRectMake(0,y=y+screenHeight/divider,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:30 yPostion:y+yOffset];
+    [self.fifteenhundredButton setFrame:CGRectMake(160,y,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:190 yPostion:y+yOffset];
+    [self.seventyfiveButton setFrame:CGRectMake(0,y=y+screenHeight/divider,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:30 yPostion:y+yOffset];
+    [self.twentyFiveButton setFrame:CGRectMake(160,y,160,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:190 yPostion:y+yOffset];
+    [self.fortyButton setFrame:CGRectMake(0,y=y+screenHeight/divider,320,screenHeight/divider)];
+    [self numberOfPrizeBOnds:0 xPosition:110 yPostion:y+yOffset];
+    [self.tryLuckButton setFrame:CGRectMake(0,y=y+screenHeight/divider,320,screenHeight/divider)];
+}
+
+-(void)numberOfPrizeBOnds: (int)bonds xPosition:(int)x yPostion:(int)y
+{
+    UILabel *howManyBonds = [[UILabel alloc]initWithFrame:CGRectMake(x, y, 200, 100)];
+    NSString *thisMany = [NSString stringWithFormat:@"%d prize Bonds", bonds];
+    howManyBonds.textColor = [UIColor whiteColor];
+    
+    howManyBonds.text = thisMany;
+    [self.view addSubview:howManyBonds];
+    
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -71,59 +111,5 @@
 {
     
 }
-
-- (IBAction)upload:(id)sender {
-    
-    
-    UIActionSheet *actionSheet = [[UIActionSheet alloc]
-                                  initWithTitle:@"What do you want to do?"
-                                  delegate:self
-                                  cancelButtonTitle:@"Cancel"
-                                  destructiveButtonTitle:nil
-                                  otherButtonTitles:@"Take Photo", @"Choose From Existing",@"Manually Enter", nil];
-    
-    [actionSheet showInView:self.view];
-    
-    
-}
-
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-    picker.delegate = self;
-    
-    
-    if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString:@"Take Photo"]) {
-        picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-    }
-    else if([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString:@"Manually Enter"]){
-        
-        double delayInSeconds = 0.1;
-        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-            //[self presentViewController:<#(UIViewController *)#> animated:YES completion:nil]
-        });
-        
-        
-        NSLog(@"Inserted");
-    }
-    else if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqualToString:@"Choose From Existing"]) {
-        picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-    }
-    
-    else{
-        return;
-    }
-    [self presentViewController:picker animated:YES completion:nil];
-    
-}
-
-- (void)imagePickerController:(UIImagePickerController *)picker
-didFinishPickingMediaWithInfo:(NSDictionary *)info
-{
-    //uploadedimage = [info objectForKey:UIImagePickerControllerOriginalImage];
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
-
-
 
 @end
